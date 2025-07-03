@@ -1,6 +1,6 @@
 package temperature.beans;
 
-public class floor {
+public class Floor {
     private String name;
     private double number;
 

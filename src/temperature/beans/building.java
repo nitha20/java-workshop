@@ -7,6 +7,7 @@ public class building {
     private LocalDateTime opendatetime;
     private LocalDateTime closedatetime;
 
+
     //getters and setters
     public String getName() {
         return name;
@@ -30,7 +31,7 @@ public double getFloor() {
 public void setFloor(double floor) {
         this.floor = floor;
     }   
-public localDateTime getOpendatetime() {
+public LocalDateTime getOpendatetime() {
         return opendatetime;
     }   
 public void setOpendatetime(LocalDateTime opendatetime) {
