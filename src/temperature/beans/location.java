@@ -53,9 +53,11 @@ public class Location {
     public void setPostalcode(double postalcode) {
         this.postalcode = postalcode;
     }
-    
-
-
+    @Override
+    public String toString() {        
+        return "Location [name=" + name + ", latitude=" + latitude + ", longitude=" + longitude + ", country=" + country
+                + ", city=" + city + ", address=" + address + ", postalcode=" + postalcode + "]";
+    }
  }
     
 

@@ -31,6 +31,10 @@ public class Zone {
     public void setArea(double area) {
         this.area = area;
     }
+    @Override
+    public String toString() {  
+        return "Zone [name=" + name + ", zoneId=" + zoneId + ", type=" + type + ", area=" + area + "]";
+    }   
     
     
 }

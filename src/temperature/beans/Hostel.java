@@ -1,6 +1,6 @@
 package temperature.beans;
 
-public class Hostel extends building {
+public class Hostel extends Building {
 
     private boolean isMessAvailable;
     private int numberOfRooms;
